@@ -54,7 +54,17 @@ nav .icon{
     cursor: pointer;
     display: none;
 }
+section{
+    
 
+}
+.gif{
+    background-attachment: fixed;
+    background: no-repeat;
+    background-size: cover;
+    height: (100vh - 80px);
+    width: 100%;
+}
 @media (max-width:1048px){
     label.logo{
         font-size: 32px;
@@ -97,13 +107,4 @@ nav .icon{
         left:0
     }
 
-}
-section{
-    background: no-repeat;
-    background-size: cover;
-    height: (100vh - 80px);
-
-}
-body.gif{
-    width: 10%;
 }
