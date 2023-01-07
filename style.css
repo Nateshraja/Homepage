@@ -45,7 +45,7 @@ a.active,a:hover{
     transition: .5s;
 }
 
-nav .icon{
+nav #icon{
     color: white;
     font-size: 50px;
     line-height: 80px;
@@ -59,7 +59,6 @@ section{
 
 }
 .gif{
-    background-attachment: fixed;
     background: no-repeat;
     background-size: cover;
     height: (100vh - 80px);
@@ -78,7 +77,7 @@ section{
     }
 }
 @media (max-width:909px){
-    .icon{
+    #icon{
         display:block;
     }
     nav ul{
